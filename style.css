@@ -106,8 +106,8 @@ main {
 .triangle {
     width: 0;
     height: 0;
-    border-left: 50vw solid rgb(92, 90, 226);
-    border-right: 50vw solid rgb(92, 90, 226);
+    border-left: 49.5vw solid rgb(92, 90, 226);
+    border-right: 49.5vw solid rgb(92, 90, 226);
     border-top: 100px solid rgba(85, 69, 46, 0.452);
 }
 .kontkt-info1 {
@@ -137,6 +137,10 @@ main {
     
 }
 
+.color {
+    text-shadow: 0 0 2px b;
+    color: white;
+}
 @media (max-width: 810px) {
     .iframe_movement {
         width: 400px ;
@@ -155,4 +159,8 @@ main {
     .navlist {
         flex-wrap: wrap;
     } 
+
+    .språk {
+        flex-wrap: wrap;
+    }
 }
