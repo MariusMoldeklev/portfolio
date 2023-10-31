@@ -164,3 +164,40 @@ main {
         flex-wrap: wrap;
     }
 }
+.nav_bar_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+ .light_switch {
+   height: 4rem;
+   width: 8rem;
+    background-image: url(dark\ mode.png);
+    background-size: cover;
+    background-color: rgba(85, 69, 46, 0.452); 
+}
+
+
+.light_switch.checked::before {
+    background-image: url(light\ mode.png);
+}
+
+.dark_mode {
+    height: 4rem;
+    width: 8rem;
+     background-image: url(light\ mode.png);
+     background-size: cover;
+     background-color: rgba(85, 69, 46, 0.452);
+}
+
+.on_off {
+    background-color: #fdfdfd;
+    color: #0d0d0d;
+}
+
+.on_off::before {
+    background-color: #0d0d0d;
+    color: #fdfdfd;
+}
